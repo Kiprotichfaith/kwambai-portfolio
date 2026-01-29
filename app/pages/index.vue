@@ -9,16 +9,16 @@
         <img
           src="/images/kwambai.jpg"
           alt="Faith Jerono"
-          class="mx-auto w-40 h-40 heart-img mb-8"
+          class="mx-auto w-40 h-40 rounded-full mb-8"
         />
 
         <h1 class="text-5xl font-bold mb-4">
-          Hi, I’m Faith Jerono
+          Hi, I’m Jerono Faith
         </h1>
 
         <p class="text-xl max-w-2xl mx-auto mb-10 text-slate-200">
-          A web developer focused on building modern, responsive, and scalable
-          web applications using Nuxt.js, Vue 3, and Tailwind CSS.
+          A web developer focused on building modern, responsive and scalable
+          web applications using CSS, HTML, JavaScript, Vue 3, Nuxt.js, Tailwind CSS, Python and PHP.
         </p>
 
         <NuxtLink

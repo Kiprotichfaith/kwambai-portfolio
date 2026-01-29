@@ -8,11 +8,11 @@
       <img
         src="/images/kwambai.jpg"
         alt="Faith Jerono"
-        class="mx-auto w-36 h-36 heart-img mb-6"
+        class="mx-auto w-36 h-36 rounded-full mb-6"
       />
       <h1 class="text-5xl font-bold mb-4">About Me</h1>
       <p class="text-xl max-w-2xl mx-auto text-slate-200">
-        A closer look at my background, technical skills, and experience as a web developer.
+        A closer look at my background, technical skills and experience as a web developer.
       </p>
     </section>
 

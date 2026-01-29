@@ -4,7 +4,12 @@
   <div class="min-h-screen bg-slate-50">
 
     <!-- HEADER -->
-    <section class="py-28 bg-gradient-to-r from-slate-900 to-indigo-900 text-white text-center">
+    <section class="py-28 bg-gradient-to-r from-slate-900 to-indigo-900 text-white text-center relative">
+      <img
+        src="/images/kwambai.jpg"
+        alt="Faith Jerono"
+        class="absolute left-8 top-1/2 transform -translate-y-1/2 w-40 h-40 rounded-full border-4 border-white shadow-lg"
+      />
       <h1 class="text-5xl font-bold mb-4">Projects</h1>
       <p class="text-xl max-w-2xl mx-auto text-slate-200">
         A selection of projects developed using modern web technologies and
