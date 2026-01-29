@@ -5,11 +5,6 @@
 
     <!-- HEADER -->
     <section class="py-28 bg-gradient-to-r from-slate-900 to-indigo-900 text-white text-center">
-      <img
-        src="/images/contact.jpg"
-        alt="Contact"
-        class="mx-auto w-32 h-32 heart-img mb-6"
-      />
       <h1 class="text-5xl font-bold mb-4">Contact Me</h1>
       <p class="text-xl max-w-2xl mx-auto text-slate-200">
         Reach out for project inquiries, collaborations, or general questions.
@@ -71,15 +66,59 @@
       </div>
     </section>
 
+    <!-- CONNECT -->
+    <section class="py-24 bg-slate-50">
+      <div class="container mx-auto px-4">
+        <div class="max-w-xl mx-auto text-center">
+          <h2 class="text-3xl font-bold text-slate-900 mb-6">
+            Connect with Me
+          </h2>
+          <p class="text-lg text-slate-700 mb-8">
+            Feel free to reach out through any of the platforms below.
+          </p>
+
+          <div class="mt-12">
+            <h2 class="text-2xl font-bold text-slate-900 mb-4">Connect with Me</h2>
+            <ul class="space-y-4 text-slate-700">
+              <li class="flex items-center gap-4">
+                <img src="/images/instagram.png" class="w-6 h-6" alt="Instagram" />
+                <a href="https://instagram.com/thequietbloomofnova" target="_blank" class="text-indigo-600 hover:underline">@thequietbloomofnova</a>
+              </li>
+              <li class="flex items-center gap-4">
+                <img src="/images/snapchat.png" class="w-6 h-6" alt="Snapchat" />
+                <a href="https://snapchat.com/add/purple_kwambai" target="_blank" class="text-indigo-600 hover:underline">@purple_kwambai</a>
+              </li>
+              <li class="flex items-center gap-4">
+                <img src="/images/whatsapp.png" class="w-6 h-6" alt="WhatsApp" />
+                <a href="https://wa.me/254724086730" target="_blank" class="text-indigo-600 hover:underline">0724086730</a>
+              </li>
+              <li class="flex items-center gap-4">
+                <img src="/images/phone-icon.png" class="w-6 h-6" alt="Call" />
+                <span class="text-slate-900">0704290031</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <defs>
+      <clipPath id="heart-shape" clipPathUnits="objectBoundingBox">
+        <path d="M0.5 0.15 C0.35 -0.05, 0 0.1, 0.5 0.6 C1 0.1, 0.65 -0.05, 0.5 0.15 Z" />
+      </clipPath>
+    </defs>
+  </svg>
 </template>
 
 <style scoped>
 .heart-img {
-  clip-path: path(
-    "M50 15
-     C35 -5, 0 10, 50 60
-     C100 10, 65 -5, 50 15 Z"
-  );
+  clip-path: url(#heart-shape);
+}
+
+svg {
+  display: none;
 }
 </style>

@@ -127,8 +127,7 @@
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto">
 
-          <div class="bg-slate-50 p-8 rounded-xl shadow hover:shadow-lg transition">
-            <img src="/images/project1.jpg" class="w-full h-40 object-cover heart-img mb-6" />
+          <div class="bg-slate-50 p-8 rounded-xl shadow hover:shadow-lg transition">            
             <h3 class="text-xl font-semibold mb-2">Travel Booking System</h3>
             <p class="text-slate-600">
               A responsive travel booking platform built using HTML, CSS,
@@ -137,7 +136,6 @@
           </div>
 
           <div class="bg-slate-50 p-8 rounded-xl shadow hover:shadow-lg transition">
-            <img src="/images/project2.jpg" class="w-full h-40 object-cover heart-img mb-6" />
             <h3 class="text-xl font-semibold mb-2">SafeVoice Platform</h3>
             <p class="text-slate-600">
               An awareness platform focused on gender-based violence and
@@ -145,8 +143,7 @@
             </p>
           </div>
 
-          <div class="bg-slate-50 p-8 rounded-xl shadow hover:shadow-lg transition">
-            <img src="/images/project3.jpg" class="w-full h-40 object-cover heart-img mb-6" />
+          <div class="bg-slate-50 p-8 rounded-xl shadow hover:shadow-lg transition">           
             <h3 class="text-xl font-semibold mb-2">Charity Donation System</h3>
             <p class="text-slate-600">
               A web-based donation system that allows users to securely support
@@ -159,14 +156,22 @@
     </section>
 
   </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <defs>
+      <clipPath id="heart-shape" clipPathUnits="objectBoundingBox">
+        <path d="M0.5 0.15 C0.35 -0.05, 0 0.1, 0.5 0.6 C1 0.1, 0.65 -0.05, 0.5 0.15 Z" />
+      </clipPath>
+    </defs>
+  </svg>
 </template>
 
 <style scoped>
 .heart-img {
-  clip-path: path(
-    "M50 15
-     C35 -5, 0 10, 50 60
-     C100 10, 65 -5, 50 15 Z"
-  );
+  clip-path: url(#heart-shape);
+}
+
+svg {
+  display: none;
 }
 </style>

@@ -45,9 +45,9 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <img src="/images/tailwind.png" class="w-16 heart-img" alt="Tailwind" />
+              <img src="/images/css.png" class="w-16 heart-img" alt="stylesheet" />
               <p class="text-slate-700">
-                Tailwind CSS for clean, responsive, and maintainable UI design.
+                CSS for clean, responsive and maintainable UI design.
               </p>
             </div>
 
@@ -60,10 +60,23 @@
             </div>
 
             <div class="flex items-start gap-4">
-              <img src="/images/git.png" class="w-16 heart-img" alt="Git" />
+              <img src="/images/python.png" class="w-16 heart-img" alt="Python" />
               <p class="text-slate-700">
-                Git version control for collaborative development and code
-                management.
+                Python for backend development, automation, and clean application logic.
+              </p>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <img src="/images/php.png" class="w-16 heart-img" alt="PHP" />
+              <p class="text-slate-700">
+                PHP for server-side scripting and building dynamic web applications.
+              </p>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <img src="/images/html.png" class="w-16 heart-img" alt="HTML" />
+              <p class="text-slate-700">
+                HTML for structuring web content and creating semantic layouts.
               </p>
             </div>
           </div>
@@ -85,14 +98,22 @@
     </section>
 
   </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <defs>
+      <clipPath id="heart-shape" clipPathUnits="objectBoundingBox">
+        <path d="M0.5 0.15 C0.35 -0.05, 0 0.1, 0.5 0.6 C1 0.1, 0.65 -0.05, 0.5 0.15 Z" />
+      </clipPath>
+    </defs>
+  </svg>
 </template>
 
 <style scoped>
 .heart-img {
-  clip-path: path(
-    "M50 15
-     C35 -5, 0 10, 50 60
-     C100 10, 65 -5, 50 15 Z"
-  );
+  clip-path: url(#heart-shape);
+}
+
+svg {
+  display: none;
 }
 </style>

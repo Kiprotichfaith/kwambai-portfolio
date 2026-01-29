@@ -18,11 +18,6 @@
 
         <!-- PROJECT 1 -->
         <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-          <img
-            src="/images/project1.jpg"
-            alt="Travel Booking System"
-            class="w-full h-40 object-cover heart-img mb-6"
-          />
           <h3 class="text-xl font-semibold mb-3 text-slate-900">
             Travel Booking System
           </h3>
@@ -38,11 +33,6 @@
 
         <!-- PROJECT 2 -->
         <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-          <img
-            src="/images/project2.jpg"
-            alt="Safe Voice Platform"
-            class="w-full h-40 object-cover heart-img mb-6"
-          />
           <h3 class="text-xl font-semibold mb-3 text-slate-900">
             SafeVoice Platform
           </h3>
@@ -58,11 +48,6 @@
 
         <!-- PROJECT 3 -->
         <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-          <img
-            src="/images/project3.jpg"
-            alt="Charity Donation System"
-            class="w-full h-40 object-cover heart-img mb-6"
-          />
           <h3 class="text-xl font-semibold mb-3 text-slate-900">
             Charity Donation System
           </h3>
@@ -77,11 +62,7 @@
 
         <!-- PROJECT 4 -->
         <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
-          <img
-            src="/images/project4.jpg"
-            alt="Personal Portfolio"
-            class="w-full h-40 object-cover heart-img mb-6"
-          />
+      
           <h3 class="text-xl font-semibold mb-3 text-slate-900">
             Personal Portfolio Website
           </h3>
@@ -99,14 +80,22 @@
     </section>
 
   </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+    <defs>
+      <clipPath id="heart-shape" clipPathUnits="objectBoundingBox">
+        <path d="M0.5 0.15 C0.35 -0.05, 0 0.1, 0.5 0.6 C1 0.1, 0.65 -0.05, 0.5 0.15 Z" />
+      </clipPath>
+    </defs>
+  </svg>
 </template>
 
 <style scoped>
 .heart-img {
-  clip-path: path(
-    "M50 15
-     C35 -5, 0 10, 50 60
-     C100 10, 65 -5, 50 15 Z"
-  );
+  clip-path: url(#heart-shape);
+}
+
+svg {
+  display: none;
 }
 </style>
