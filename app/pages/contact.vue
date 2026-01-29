@@ -93,7 +93,7 @@
                 <a href="https://wa.me/254724086730" target="_blank" class="text-indigo-600 hover:underline">0724086730</a>
               </li>
               <li class="flex items-center gap-4">
-                <img src="/images/phone-icon.png" class="w-6 h-6" alt="Call" />
+                <img src="/images/phone.png" class="w-6 h-6" alt="Call" />
                 <span class="text-slate-900">0704290031</span>
               </li>
             </ul>
