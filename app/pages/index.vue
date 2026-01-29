@@ -13,7 +13,7 @@
         />
 
         <h1 class="text-5xl font-bold mb-4">
-          Hi, I’m Jerono Faith
+          Hi, I’m Jerono Faith.
         </h1>
 
         <p class="text-xl max-w-2xl mx-auto mb-10 text-slate-200">
